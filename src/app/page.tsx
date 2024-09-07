@@ -42,7 +42,7 @@ const Resume = () => {
            pb-2 text-blue-800 mb-4">Skills</h2>
          
           {showSkills && (
-            <ul className="mt-4   flex-col space-y-2 text-center sm:flex-row justify-between text-lg flex">
+            <ul className="mt-4   flex-col space-y-2  sm:flex-row justify-between text-lg flex">
               <li className=' text-white p-1 px-2 rounded-2xl font-semibold'> JavaScript</li>
               <li className='bg-black text-white p-1 px-2 rounded-2xl font-semibold' > React.js</li >
               <li className='bg-black text-white p-1 px-2 rounded-2xl font-semibold'> Next.js</li>
