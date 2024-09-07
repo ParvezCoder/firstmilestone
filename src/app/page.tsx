@@ -22,6 +22,7 @@ const Resume = () => {
               <p className="text-lg">Name: Parvez Ahmed</p>
               <p className="text-lg">Email: parvezcoder786@gmail.Company</p>
               <p className="text-lg">Phone: 0305-2887779</p>
+              <a href='https://www.linkedin.com/in/parvez-ahmed-1604b92b5/' target='_blank'>Linkedin: <span className='text-red-500 '>ParvezCoder786@gmail.com </span></a>
             </div>
             <Image src="/pic.jpg" alt="Parvez Pic"
              width={90}  height={50} className="rounded-xl " />
@@ -60,7 +61,7 @@ const Resume = () => {
             Work Experience
           </h2>
           <div>
-            <h3 className="text-xl font-semibold text-white">Senior Student of 1st quater - at GIAIC</h3>
+            <h3 className=" text-white">Senior Student of 1st quater - at GIAIC</h3>
             <p className="text-white">Feb-2024 - Aug-2024</p>
             <p className=" text-white text-lg">Developed scalable web applications using React and Next.js.</p>
           </div>
