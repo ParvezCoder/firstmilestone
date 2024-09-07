@@ -15,7 +15,7 @@ const Resume = () => {
   });
   const [newSkill, setNewSkill] = useState('');
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setResumeData({
       ...resumeData,
@@ -46,6 +46,7 @@ const Resume = () => {
               <label className=" p-1  px-4 rounded-2xl bg-white text-black">Name:</label>
               <input
                 type="text"
+                required
                 name="name"
                 value={resumeData.name}
                 onChange={handleInputChange}
