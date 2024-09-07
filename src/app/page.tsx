@@ -17,7 +17,7 @@ const Resume = () => {
           <h2 className="text-2xl  text-blue-800 font-bold border-b-2 border-blue-500 pb-2 mb-4">
             Personal Information
           </h2>
-          <div className="flex  justify-between space-x-4 text-white">
+          <div className="flex flex-col sm:flex-row justify-between space-x-4 text-white">
             <div>
               <p className="text-lg">Name: Parvez Ahmed</p>
               <p className="text-lg">Email: parvezcoder786@gmail.Company</p>
